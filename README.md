@@ -5,7 +5,7 @@ What you can in this project
 
 Added :
 Interface with onClickListener, 
-Load images from links using Glide; 
+Load images from links using Glide,
 Enhance onBindViewHolder, 
 Popup Menu, 
 Back to top position, 
