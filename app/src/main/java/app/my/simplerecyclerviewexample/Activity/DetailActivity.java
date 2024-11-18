@@ -11,13 +11,11 @@ import app.my.simplerecyclerviewexample.databinding.ActivityDetailBinding;
 
 public class DetailActivity extends AppCompatActivity {
 
-    private ActivityDetailBinding binding;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-        binding = ActivityDetailBinding.inflate(getLayoutInflater());
+        ActivityDetailBinding binding = ActivityDetailBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         if (getSupportActionBar() != null) {
